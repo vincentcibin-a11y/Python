@@ -6,5 +6,7 @@ for i in a:
         b.append(i)
         count=count+1
 if count==1:
-    
+    print("yes")
+else:
+    print("no")
 

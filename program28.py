@@ -5,4 +5,7 @@ c=[0]*max(vote)
 for i in range(n):
     if age[i]>=18:
         c[vote[i]-1]+=1
-temp=
+temp=max(c)
+for i in range(len(c)):
+    if c[i]==temp:
+        print(i+1)
